@@ -11,11 +11,10 @@ public class Lab1 {
         d[i]=s;
         s+=2;
     }
-        System.out.println();
     for (int i=0;i<14;i++){
         x[i]=(Math.random()*(14+11))-11;
     }
-        System.out.println();
+        
     for (int i=0; i<9;i++){
         for (int j=0;j<18;j++) {
             if (d[i]==17){
