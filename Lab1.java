@@ -1,5 +1,3 @@
-package study;
-
 public class Lab1 {
     public static void main(String[] args){ 
         int s=3;
