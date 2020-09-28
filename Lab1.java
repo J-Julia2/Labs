@@ -3,7 +3,7 @@ publicpublic class Lab1 {
 		return Math.random()*(14+11)-11;
 	}
 	
-    public static void main(String[] args){ 
+	public static void main(String[] args){ 
 		final int f=9;
 		final int p=18;
 		int s=3;
@@ -28,9 +28,8 @@ publicpublic class Lab1 {
 				}
 				else  k[i][j]=Math.log(Math.pow(Math.exp(Math.tan(Math.pow(x[j]+1,3)))/2,2));
 					System.out.printf("%.2f ", k[i][j]);
-            }
-        System.out.println();
+           	 	}
+    		 	System.out.println();
 		}
-		
-	}
+       }
 }
