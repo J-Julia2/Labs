@@ -11,7 +11,7 @@ publicpublic class Lab1 {
 		double[] x=new double[p];
 		double[][] k=new double[f][p];
 
-		for (int i=0;i<9;i++){
+		for (int i=0;i<f;i++){
 			d[i]=s;
 			s+=2;
 		}
