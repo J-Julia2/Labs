@@ -15,7 +15,7 @@ publicpublic class Lab1 {
 			d[i]=s;
 			s+=2;
 		}
-		for (int i=0;i<14;i++){
+		for (int i=0;i<p;i++){
 			x[i]=Random_11_14();
 		}
 		for (int i=0; i<f;i++){
