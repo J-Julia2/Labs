@@ -24,7 +24,7 @@ public class Lab1 {
 		for (int i = 0; i < f; i++){
 			for (int j = 0; j < p; j++) {
 				if (d[i] == 17){
-					k[i][j] = Math.log(Math.abs( 3 / 4 + x[j]));
+					k[i][j] = Math.log(Math.abs( 0.75 + x[j]));
 				}
 				else if ((d[i] == 5) || (d[i] == 9) || (d[i] == 11) || (d[i] == 15)){
 					k[i][j] = Math.atan(Math.exp(Math.cbrt(-Math.abs(x[j]))));
